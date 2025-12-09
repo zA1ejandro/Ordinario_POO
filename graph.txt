@@ -1,0 +1,1 @@
+N 1 a N 2 b N 3 c N 4 d N 5 e A 1 2 B 1 2 A 1 4 D 3 4 A 2 5 D 5 6 A 3 1 D 6 7 A 3 2 D 7 8
