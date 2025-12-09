@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace ordinario.Clases;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        var dijkstra = new Dijkstra<string, int[]>();
+        dijkstra.GenerateMap("graph.txt", dijkstra.DefaultGraphGen);
+    }
+
+}
