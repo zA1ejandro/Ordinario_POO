@@ -4,15 +4,14 @@ using System.Diagnostics.Contracts;
 
 namespace ordinario.Clases;
 
-public class Node<T>
+public class Node<Tn, Te>
 {
-    public int ID{get;set;}
+    public int Id { get; set; }
+    public Tn? Value { get; set; }
+    public List<Edge<Tn, Te>> Edges { get; set; } = [];
 
-    public T value{get;set;}
-
-    public Node(int id,T valueType)
+    public Node(int id)
     {
-        ID=id;
-        value=valueType;
+        Id = id;
     }
 }
