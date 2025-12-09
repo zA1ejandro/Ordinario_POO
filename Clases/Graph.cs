@@ -9,9 +9,9 @@ public class Graph<Tn, Te>
         return Nodes;
     }
 
-    public Node<Tn, Te>? FindNode(Predicate<Node<Tn, Te>> comparsion)
+    public Node<Tn, Te>? FindNode(Predicate<Node<Tn, Te>> comparison)
     {
-        return Nodes.Find(comparsion);
+        return Nodes.Find(comparison);
     }
 
     public bool IsAdjacent(Node<Tn, Te> nodeA, Node<Tn, Te> nodeB)
